@@ -22,7 +22,7 @@ The swift implementation of the PAY.POS SDK
   s.ios.deployment_target = '18.0'
 
   s.swift_versions = '6.0'
-  s.source_files = '**/PayNlPOSSdkSwift/**/*.{swift,h,mm}'
+  s.source_files = '**/PayNlPOSSdkSwift/PayNlPOSSdkSwift/**/*.{swift,h,mm}'
   s.frameworks = 'UIKit', 'Foundation', 'ProximityReader'
   
   s.dependency 'SQLite.swift', '~> 0.14.0'
